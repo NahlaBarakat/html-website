@@ -1,0 +1,42 @@
+body{
+	font-family: roboto;
+	background-color: #F7F9F9 
+}
+nav{
+	background-color: #FDFEFE   ;
+	border-bottom: 3px solid #EC7063 ;
+	width: 1903px;
+	height: 70px
+}
+a{
+	line-height: 4;
+	font-weight: bolder;
+	margin-left: 20px;
+	position: relative;
+	left: 100px;
+	right: 0;
+	top: -19px;
+	
+	color:#212F3C ;
+
+	text-decoration: none;
+}
+a:hover{
+	color: lime;
+}
+a.active{
+	color: lime;
+}
+img#logo{
+	width: 100px;
+	height: 50px
+	top:10px;
+	margin-left: 100px
+}
+footer{
+	background-color: #A04000  ;
+	color: #FDFEFE;
+	text-align: center;
+	line-height: 13
+
+}
