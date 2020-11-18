@@ -2,6 +2,7 @@ body{
 	font-family: roboto;
 	background-color: #F7F9F9 
 }
+/*navbar css*/
 nav{
 	background-color: #FDFEFE   ;
 	border-bottom: 3px solid #EC7063 ;
@@ -33,10 +34,68 @@ img#logo{
 	top:10px;
 	margin-left: 100px
 }
+/*home css*/
+p.text{
+	margin-left: 90px;
+	position: relative;
+	top: 400px
+}
+.home-pic{
+	height: 100px;
+	width: 100px;
+	margin-left: 100px;
+	border-radius: 50%;
+	margin-top: 480px
+}
+h1#candy-greet{
+	margin-left: 500px;
+	font-weight: bolder;
+	color: rgb(50, 41, 19);
+	margin-top: 150px;
+	font-size: 70px
+	/*z-index: -1;*/
+}
+/*services css*/
+img.service{
+	height: 100px;
+	width: 100px;
+	margin-left: 100px;
+	border-radius: 50%;
+	margin-top: 100px
+}
+/*about css*/
+p.text2{
+	margin-left: 90px;
+	position: relative;
+
+}
+/*contact css*/
+form{
+	margin-left: 400px
+}
+.form-control{
+	margin-top: 20px;
+	display: block;
+	background-clip: padding-box;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+input.btn{
+	width: 100px;
+	height: 30px;
+	border-color: silver;
+	background-color: transparent;
+	color:blue;
+	border-radius: 30%;
+	margin-top: 40px;
+	margin-left: 700px
+}
+/*footer css*/
 footer{
 	background-color: #A04000  ;
 	color: #FDFEFE;
 	text-align: center;
-	line-height: 13
+	line-height: 13;
+	
+	top: 200px
 
 }
